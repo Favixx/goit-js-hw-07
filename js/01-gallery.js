@@ -23,6 +23,6 @@ function escapeHandler(e){
     document.removeEventListener('keydown', escapeHandler);
   }
 }
-galleryRender.addEventListener("keydown", escapeHandler);
+document.addEventListener("keydown", escapeHandler);
 }
 galleryRender.addEventListener("click", fullscreenImageOpener)
